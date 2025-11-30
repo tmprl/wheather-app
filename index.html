@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+    <form class="formWeather">
+        <input type="text" placeholder="Search city" class="cityInput" required>
+        <button type="submit" class="citySubmit" >Get Weather</button>
+    </form>
+
+    </header>
+
+    <main>
+
+        <div class="weatherWrapper">
+            <h1 class="cityName">Tbilisi</h1>
+            <p class="cityTemp">30°C</p>
+            <p class="cityHumidity">Humidity: 70%</p>
+            <p class="cityDescription">Cloudy</p>
+            <p class="cityEmoji">☁️</p>
+            <p class="cityError">Please enter a city</p>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
